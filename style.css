@@ -43,10 +43,10 @@ body {
   color: var(--text);
   transition: 0.3s;
 
-  background-image: url("https://www.transparenttextures.com/patterns/bread.png");
-  background-size: 300px;
+  background-image: url("https://www.svgrepo.com/show/276264/bread.svg");
+  background-size: 180px;
   background-repeat: repeat;
-  opacity: 0.98;
+  opacity: 0.97;
 }
 
 .loading-screen {
