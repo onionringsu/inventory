@@ -42,6 +42,11 @@ body {
   background: var(--bg);
   color: var(--text);
   transition: 0.3s;
+
+  background-image: url("https://www.transparenttextures.com/patterns/bread.png");
+  background-size: 300px;
+  background-repeat: repeat;
+  opacity: 0.98;
 }
 
 .loading-screen {
@@ -103,7 +108,8 @@ body.dark .auth-wrapper {
 }
 .auth-card {
   width: 380px;
-  background: var(--card-bg);
+  background: rgba(255,255,255,0.92);
+backdrop-filter: blur(6px);
   padding: 40px;
   border-radius: 22px;
   box-shadow: 0 16px 40px rgba(139, 94, 60, 0.18);
